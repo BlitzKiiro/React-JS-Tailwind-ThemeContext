@@ -3,19 +3,19 @@ React Context for Handling ( Dark / Light / System ) themes for React.js and Tai
 
 <h1> How does it work </h1>
 
-(1) Theme Povider integrates with TailwindCSS to add/remove the "dark" class to/from the DOM root HTML tag which automatically switches tailwind css theme mode from dark to light and vice versa
+(1) Theme Povider integrates with TailwindCSS to add/remove the "dark" class to/from the DOM root HTML tag which automatically switches tailwind css theme mode from  dark to light and vice versa
 
 (2) Theme Povider saves user theme prefrences from previous visits in browser's localstorage whether it's light or dark. 
 
-(3) if there are no saved theme prefrences The Provider uses the system (os) default theme mode.
+(3) If there are no saved theme prefrences The Provider uses the system (os) default theme mode.
 
-(4) if theme mode is set to "system" The Porvider detects any change in system's default theme and provides the user with live theme mode update in realtime. 
+(4) If theme mode is set to "system" The Porvider detects any change in system's default theme and provides the user with live theme mode update in realtime. 
  
 
 
 <h1> How to use </h1>
 
-(1) add darkMode class property to tailwind.config.js  file
+(1) Add darkMode class property to tailwind.config.js  file
 
 ```
 module.exports = {
