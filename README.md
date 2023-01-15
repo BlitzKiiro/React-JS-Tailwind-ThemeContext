@@ -28,7 +28,7 @@ module.exports = {
 
 ```
 
-(2) Wrap your main component with the ThemeContextProvider Compoents in the App.js file ( react ) or _app.js file ( next.js) 
+(2) Wrap your main component with the ThemeContextProvider component in the App.js file ( react ) or _app.js file ( next.js) 
 
 ```
  <ThemeContextProvider>
