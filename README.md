@@ -34,7 +34,7 @@ module.exports = {
  <ThemeContextProvider>
         <Component {...pageProps} />
  </ThemeContextProvider>
-``
+```
 
 (3) use useThemeContext hook to get the Theme mode and dispatch function to change theme Read theme value
 
