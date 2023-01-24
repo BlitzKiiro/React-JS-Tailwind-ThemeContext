@@ -50,7 +50,7 @@ const {mode} = theme
 <h4> - changing theme mode </h4>
 
 ```
-  dispatch({ type: "LIGHT" }); {/* change to ligh mode  */}
+  dispatch({ type: "LIGHT" }); {/* change to light mode  */}
 
   dispatch({ type: "DARK" });  {/* change to dark mode  */}
 
